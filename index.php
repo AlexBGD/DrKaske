@@ -24,8 +24,10 @@ function fatal_handler() {
 
     var_dump($err);
   }
-}*/
-
+}
+ * 
+ * 
+*/
 $search=true;
 
 
