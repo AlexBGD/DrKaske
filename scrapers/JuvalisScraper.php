@@ -555,8 +555,8 @@ protected function parse_nav($con){
               
         $this->setOpt(CURLOPT_FOLLOWLOCATION,true,$this->curl);
         $this->setOpt(CURLOPT_MAXREDIRS,10,$this->curl);
-     // $v="10333719";
-         foreach ($pzns as $v) {
+     $v="10333719";
+       //   foreach ($pzns as $v) {
         $content=  $this->get_content(sprintf($search_url, $v)); 
           $headers=$this->getResponseHeaders();
          if (isset($headers['Location'])) {
@@ -577,7 +577,7 @@ protected function parse_nav($con){
               
           
                
-      }
+   //   }
            
          
            

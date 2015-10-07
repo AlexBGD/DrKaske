@@ -69,8 +69,8 @@ $search=true;
  //  require './scrapers/EuropaApotheekScraper.php';
 // new EuropaApotheekScraper($search);
 
- //require './scrapers/JuvalisScraper.php';
- //new JuvalisScraper($search);
+ require './scrapers/JuvalisScraper.php';
+ new JuvalisScraper($search);
 
  //require './scrapers/MediherzScraper.php';
   //new MediherzScraper();
