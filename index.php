@@ -4,14 +4,7 @@ ini_set('xdebug.max_nesting_level',-1);
 //header('Content-Type: text/html; charset=utf-8');
 
  require_once './KaskeScraper.php';
- 
- 
- 
- 
- 
- 
- 
- 
+
  //register_shutdown_function( "fatal_handler" );
  
 /*
@@ -34,6 +27,10 @@ function fatal_handler() {
 }*/
 
 $search=true;
+
+
+
+
 //require_once './scrapers/AlivaScraper.php'; 
  // new AlivaScraper($search);
 
