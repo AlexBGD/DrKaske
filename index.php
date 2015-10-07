@@ -5,6 +5,13 @@ ini_set('xdebug.max_nesting_level',-1);
 
  require_once './KaskeScraper.php';
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  //register_shutdown_function( "fatal_handler" );
  
 /*
@@ -63,8 +70,8 @@ $search=true;
  //  require './scrapers/EuropaApotheekScraper.php';
 // new EuropaApotheekScraper($search);
 
- require './scrapers/JuvalisScraper.php';
- new JuvalisScraper($search);
+ //require './scrapers/JuvalisScraper.php';
+ //new JuvalisScraper($search);
 
  //require './scrapers/MediherzScraper.php';
   //new MediherzScraper();
@@ -105,56 +112,5 @@ $search=true;
   // $Scraper=new KaskeScraper();
 
    //$Scraper->search_pzn('http://www.apo-rot.de/');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-  
-
-
- 
-
- 
-
-
-
-
-
-
-
 
 
